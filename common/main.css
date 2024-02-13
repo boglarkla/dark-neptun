@@ -1,0 +1,220 @@
+.contextcell_sel,
+.contextcell {
+    background-image: url(../common/options.svg) !important;
+}
+
+.tooltipDetails {
+    background-color: var(--background-color);
+}
+
+#upFilter_cmbSubjects option.npu_subscribed {
+    background-color: var(--main-color) !important;
+}
+
+.tg-col {
+    background-color: var(--background-color);
+}
+
+#skinSelectorDropdown {
+    color: var(--main-fontcolor);
+}
+
+#languageSelectorDropdown {
+    color: var(--main-fontcolor);
+}
+
+.newsTable span.link:hover {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+h2 {
+    color: var(--main-color);
+    background-color: var(--background-color);
+}
+
+.boldLink {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.scrollablebody tr td span.link {
+
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.scrollablebody tr:hover .subrow_td span.link {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.Row1_Bold_sel td {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.Row1_sel td {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+a.img_excel {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.contextcell span {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+a {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+a:hover {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.footer_menu a:hover {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.main_favorites_headertext {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.grid_remove_favorite {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.grid_add_favorite {
+    color: var(--main-color);
+}
+
+.newsDetailTitle {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.TitleLeft {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.MyCalendar .ajax__calendar_today {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.MyCalendar .ajax__calendar_days .ajax__calendar_hover {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.calendar .calendar_othermonthdaystyle:hover,
+.calendar .Day:hover,
+.calendar .calendar_othermonthdaystyle:hover,
+.calendar .calendar_weekendDdystyle:hover {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.LinkButton {
+    /*Color variant*/
+    color: var(--main-color);
+}
+
+.orarendtervezo {
+    /*Color variant*/
+    border-color: var(--main-color);
+}
+
+.divButton {
+    /*Color variant*/
+    background-color: var(--main-color);
+}
+
+#npu_loading {
+    background-color: var(--main-color);
+}
+
+.modernui .listview li div.badge {
+    background-color: var(--main-color);
+}
+
+#mb1 li.menu-parent.has-target {
+    color: var(--main-color) !important;
+}
+
+.main_search .grid_searchbutton,
+.main_search .button,
+.button {
+    background-color: var(--main-color);
+    border: none;
+}
+
+.main_search .grid_searchbutton,
+.main_search .button {
+    background-color: var(--background-color);
+}
+
+.modernui .tile .brand>.badge.activity,
+.modernui .tile .tile-status>.badge.activity {
+    background-color: var(--main-color);
+}
+
+.link {
+    color: var(--main-color) !important;
+}
+
+.ui-widget-overlay {
+    background-color: var(--ovarlay-color);
+}
+
+/* ---- positioning ---- */
+.langskinpartially {
+    top: 195px;
+}
+
+.CloseLeftBox {
+    height: 10px;
+    width: 5px;
+}
+
+.leftbuttons_td {
+    display: none;
+}
+
+#upBoxes_upRSS {
+    display: none;
+}
+
+#upBoxes_upForum {
+    display: none;
+}
+
+#upBoxes>table>tbody>tr {
+    /*     display: flex; */
+    flex-direction: column;
+}
+
+/* ---- positioning ---- */
+
+/* clean up login page */
+#div_login_right_side,
+#td_LeftImage,
+#tableMain,
+#td_Footer {
+    background-image: none;
+}
+
+.login_info_text {
+    display: none;
+}
