@@ -11,7 +11,7 @@
 // @include        https://host.sdakft.hu/*
 // @include        https://neptun.ejf.hu/ejfhw/*
 // @grant          none
-// @version        0.0.2
+// @version        0.0.3
 // @author         bglrk
 // @description    Dark mode for neptun.
 // @downloadURL    https://raw.githubusercontent.com/boglarkla/dark-neptun/main/darkneptun.user.js

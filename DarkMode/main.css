@@ -317,13 +317,13 @@ a:hover {
 }
 
 .main_header_l {
-    background-image: url(neptun_menhera.png) !important;
+    background-image: url(main_header_l.jpg) !important;
     background-repeat: no-repeat;
     background-position: 50% 0;
 }
 
 .main_header_r_table_skin {
-    background: url(menhera_night.webp) !important;
+    background: url(main_header_r.jpg) !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     margin: 30px;
