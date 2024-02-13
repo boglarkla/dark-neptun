@@ -11,14 +11,6 @@
 
 body * {
     background-image: none !important;
-    --link-color: #d6bdff;
-    --main-color: #4c396b;
-    --background-color: #1c1828;
-    --main-fontcolor: whitesmoke;
-    --secondary-background-color: #4c2a6a;
-    --secondary-fontcolor: #eee;
-    --dark-font-color: var(--background-color);
-    --ovarlay-color: #222;
 }
 
 /* ---- fonts ---- */
