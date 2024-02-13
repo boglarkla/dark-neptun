@@ -11,7 +11,7 @@
 // @include        https://host.sdakft.hu/*
 // @include        https://neptun.ejf.hu/ejfhw/*
 // @grant          none
-// @version        0.0.4
+// @version        0.0.5
 // @author         bglrk
 // @description    Dark mode for neptun.
 // @downloadURL    https://raw.githubusercontent.com/boglarkla/dark-neptun/main/darkneptun.user.js
@@ -137,7 +137,7 @@ window.dochangeSkin = function (href, skin) {
 }
 
 function selectSkin(skinName) {
-    css.href = base_url + skinName + "/main.css?v=1";
+    css.href = base_url + skinName + "/main.css";
     arrow_right.src = base_url + skinName + "/right_arrow.png";
     if (arrow_up !== undefined) {
         arrow_up.src = base_url + skinName + "/searchpanel_up.png";
