@@ -11,7 +11,7 @@
 // @include        https://host.sdakft.hu/*
 // @include        https://neptun.ejf.hu/ejfhw/*
 // @grant          none
-// @version        0.0.1
+// @version        0.0.2
 // @author         bglrk
 // @description    Dark mode for neptun.
 // @downloadURL    https://raw.githubusercontent.com/boglarkla/dark-neptun/main/darkneptun.user.js
@@ -179,13 +179,65 @@ function
     // Theme chooser fix
     window.ShowHideThemeChooser = showHideThemeChooser;
 
-    var skinchooserimg_dark = $('.skinchooserimg_dark');
+    var skinchooserimg_blue = $('.skinchooserimg_blue');
+    var skinchooserimg_green = $('.skinchooserimg_green');
+    var skinchooserimg_pink = $('.skinchooserimg_pink');
+    var skinchooserimg_orange = $('.skinchooserimg_orange');
+    var skinchooserimg_teacher = $('.skinchooserimg_teacher');
+    var skinchooserimg_purple = $('.skinchooserimg_purple');
+    var skinchooserimg_szte = $('.skinchooserimg_szte');
 
     setSkinImageUrl();
 
-    skinchooserimg_dark.bind('mouseover', {
-        skinName: 'DarkMode'
+    skinchooserimg_blue.bind('mouseover', {
+        skinName: 'Blue'
     }, showSkinPreview);
+    skinchooserimg_green.bind('mouseover', {
+        skinName: 'Green'
+    }, showSkinPreview);
+    skinchooserimg_pink.bind('mouseover', {
+        skinName: 'Pink'
+    }, showSkinPreview);
+    skinchooserimg_orange.bind('mouseover', {
+        skinName: 'Orange'
+    },
+        showSkinPreview);
+    skinchooserimg_teacher.bind('mouseover', {
+        skinName: 'Teacher'
+    },
+        showSkinPreview);
+    skinchooserimg_purple.bind('mouseover', {
+        skinName: 'Purple'
+    },
+        showSkinPreview);
+    skinchooserimg_szte.bind('mouseover', {
+        skinName: 'SZTE'
+    }, showSkinPreview);
+
+    skinchooserimg_blue.bind('mouseout', {
+        skinName: 'Blue'
+    }, hideSkinPreview);
+    skinchooserimg_green.bind('mouseout', {
+        skinName: 'Green'
+    }, hideSkinPreview);
+    skinchooserimg_pink.bind('mouseout', {
+        skinName: 'Pink'
+    }, hideSkinPreview);
+    skinchooserimg_orange.bind('mouseout', {
+        skinName: 'Orange'
+    },
+        hideSkinPreview);
+    skinchooserimg_teacher.bind('mouseout', {
+        skinName: 'Teacher'
+    },
+        hideSkinPreview);
+    skinchooserimg_purple.bind('mouseout', {
+        skinName: 'Purple'
+    },
+        hideSkinPreview);
+    skinchooserimg_szte.bind('mouseout', {
+        skinName: 'SZTE'
+    }, hideSkinPreview);
 
     // Custom themes
     var skinChooser =
