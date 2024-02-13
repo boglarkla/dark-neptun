@@ -25,10 +25,10 @@
         :root {
             --link-color: #81689D;
             --main-color: #FFD0EC;
-            --background-color: #1F2544;
-            --main-fontcolor: #81689D;
+            --background-color: #191E36;
+            --main-fontcolor: #AA85D4;
             --secondary-background-color: #070F2B;
-            --secondary-fontcolor: #9290C3;
+            --secondary-fontcolor: #E240E2;
             --dark-font-color: var(--background-color);
             --ovarlay-color: #222;
         }
@@ -40,6 +40,19 @@
         }    
         
         a { color: var(--link-color) !important; }
+
+        #mb1 li.menu-parent {
+            color: var(--secondary-fontcolor) !important;
+        }
+
+        .top_menu_left {
+            background-image: none; !important;
+        }
+
+        .top_menu_right {
+            background-image: none; !important;
+        }
+
     `;
 
     // Inject custom CSS into the page
@@ -70,6 +83,19 @@
     }
 
 
+    // Get all elements with the class leftbuttons_td
+    var leftButtonsTds = document.querySelectorAll('td.leftbuttons_td');
 
+    // Iterate over the list of elements and remove each one
+    leftButtonsTds.forEach(function (td) {
+        td.parentNode.removeChild(td);
+    });
 
+    // Get all elements with the class leftbuttons_td
+    var headerpanelbutton = document.querySelectorAll('td.GadgetHeaderPanelButtonLeftMenu');
+
+    // Iterate over the list of elements and remove each one
+    headerpanelbutton.forEach(function (td) {
+        td.parentNode.removeChild(td);
+    });
 })();
